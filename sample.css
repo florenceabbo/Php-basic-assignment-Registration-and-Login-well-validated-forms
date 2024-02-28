@@ -1,0 +1,121 @@
+
+/* register.css */
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: rgb(250, 251, 252); /* Set background color to sky blue */
+}
+
+form {
+    background-color: white; /* Set form background color to white */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+label {
+    color: orange; /* Set label color to orange */
+    font-weight: bold;
+}
+
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #200190; 
+    border-radius: 5px;
+}
+
+
+/* login.css */
+
+body {
+    background-color: #1e2952; /* Dark blue background color */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.login-container {
+    background-color: #364d79; /* Dark blue background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    background-color: white; /* White input background color */
+    color: #333; /* Input text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: #42b883; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #32a372; /* Darker green on hover */
+}
+
+.invalid-feedback {
+    color: #dc3545; /* Red text color for error messages */
+} 
+
+
+input[type="submit"],
+button[name="submit"] {
+    background-color: orange; /* Set button background color to orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+button[name="submit"]:hover {
+    background-color: darkorange; /* Darken button color on hover */
+}
+
+h2 {
+    color: orange; /* Set heading color to orange */
+  margin-left: 600px;
+}
+
+p {
+    padding: 10px 20px;
+    color: #200190; /* Set paragraph color to navy */
+}
+.button{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 12px;
+    width: 315px;
+    
+}
+

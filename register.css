@@ -1,0 +1,56 @@
+/* register.css */
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: rgb(250, 251, 252); /* Set background color to sky blue */
+}
+
+form {
+    background-color: white; /* Set form background color to white */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+label {
+    color: orange; /* Set label color to orange */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #200190; 
+    border-radius: 5px;
+}
+
+input[type="submit"],
+button[name="submit"] {
+    background-color: orange; /* Set button background color to orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+button[name="submit"]:hover {
+    background-color: darkorange; /* Darken button color on hover */
+}
+
+h2 {
+    color: orange; /* Set heading color to orange */
+   margin-left: 600px;
+}
+
+p {
+    padding: 10px 20px;
+    color: #200190; /* Set paragraph color to navy */
+    margin-left: 600px;
+}
